@@ -1,0 +1,22 @@
+*{
+    font-family: 'Pacifico', sans-serif;
+}
+#form{
+    width: 100%;
+    
+    font-family: 'Pacifico', sans-serif;
+}
+
+
+#form input,#form textarea{
+    width: 50%;
+    
+}
+input{
+    left: 50%;
+}
+@media only screen and (max:width= 450px){
+    #form{
+        width: 100%;
+    }
+}
