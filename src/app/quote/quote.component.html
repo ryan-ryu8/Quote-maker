@@ -2,14 +2,14 @@
 <body>
   <div class =container>
     <nav class="navbar navbar-light justify-content-between text-center">
-      <div class="text-center main-1"><h1>   {{ quotes.title }} App</h1></div>
+      <h1 class="head">Quote App</h1>
+      <div class="text-center main-1"><h1> Quote{{ quotes }} App</h1></div>
   </nav>
-  <app-quote-form (addQuote) = "addNewQuote($event)"></app-quote-form>
-  <div *ngFor = "let quote of quotes; let i = index">
+  <app-quote-form (addNewQuote) = "addNewQuote($event)"></app-quote-form>
+  <div *ngFor = 'let quote of quotes; let i = index'>
     <div id="con-1">
-      <div  id="{{i}}" >
           <p  class="top">{{quote.description}}</p>
-          <p>Posted  {{ quote.completeDate |dateCount }} days ago</p>
+          <p>Posted  {{ quote.completeDate |dateCount }}</p>
           <a id="like" (click)="like(i)">
       <span class="glyphicon glyphicon-thumbs-up"></span>
     </a>
@@ -24,7 +24,6 @@
 <a id="delete" (click)="deleteQuote(true)">
     <span class="glyphicon glyphicon-trash"></span>
   </a>
-</div>
 
       </div>
      <br>
@@ -33,7 +32,7 @@
         class="	fa fa-plus-square"></i> </button>
      </div>
      <div *ngIf = "quote.showDescription">
-       <app-quote-details [quote] = "quote" (isComplete) = "deleteQuote($event, i)"></app-quote-details>
+       <app-quote-details [quote] = "quote" (isComplete) = "deleteQuote($event)"></app-quote-details>
      </div>
     </div>
   </div>

@@ -1,16 +1,16 @@
 *{
-    font-family: 'Pacifico', sans-serif;
+    font-family: cursive;
 }
 #form{
     width: 100%;
-    
-    font-family: 'Pacifico', sans-serif;
+
+    font-family: cursive;
 }
 
 
 #form input,#form textarea{
     width: 50%;
-    
+
 }
 input{
     left: 50%;

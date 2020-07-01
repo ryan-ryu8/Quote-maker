@@ -1,26 +1,50 @@
 nav {
     color: #fff;
-    font-family: 'Pacifico', sans-serif;
+    font-family: sans-serif;
     margin-bottom: 5%;
 }
 nav img{
     color: #fff;
 }
+.head{
+  font-size: 40px;
+  color: red;
+  background-color: black;
+  text-align: center;
+  border-radius: 14px;
+  width: 180px;
+  height: 130px;
+  position: relative;
+  margin-left: 34%;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
 footer{
-    color: #fff;
+    color: red;
     font-size: 20px;
-    font-family: 'Pacifico', cursive;
+    font-family: cursive;
 }
 #con-1{
     background-color:rgba(26, 27, 26, 0.685);
     margin-top: 5%;
-    font-family: 'Pacifico', sans-serif;
+    font-family: sans-serif;
     color: #fff;
     font-weight: 280;
     font-size: 20px;
 }
 nav img{
-    font-family: 'Pacifico', sans-serif;
+    font-family: sans-serif;
 }
 body{
     background-image: url('https://imhttps://www.pexels.com/photo/blue-and-white-smoke-digital-wallpaper-604684/ages.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');

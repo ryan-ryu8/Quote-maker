@@ -3,7 +3,7 @@ import { Quote } from '../quote'
 
 @Component({
   selector: 'app-quote',
-  templateUrl: './quote.component.html',
+  templateUrl:'./quote.component.html',
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
@@ -18,12 +18,10 @@ export class QuoteComponent implements OnInit {
     quote.completeDate = new Date (quote.completeDate)
     this.quotes.unshift(quote)
   }
-  deleteQuote(isComplete:any, index:any){
+  deleteQuote(isComplete){
     if (isComplete) {
       let toDelete = confirm('Do you really want  to delete this quote?')
-        if (toDelete){
-          this.quotes.splice(index,1)
-  }
+  
 }
   }
   toggleDetails(index:any){
