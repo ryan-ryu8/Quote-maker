@@ -2,14 +2,14 @@
 <body>
   <div class =container>
     <nav class="navbar navbar-light justify-content-between text-center">
-      <div class="text-center main-1"><h1>   {{ title }} App</h1></div>
+      <div class="text-center main-1"><h1>   {{ quotes.title }} App</h1></div>
   </nav>
   <app-quote-form (addQuote) = "addNewQuote($event)"></app-quote-form>
   <div *ngFor = "let quote of quotes; let i = index">
     <div id="con-1">
       <div  id="{{i}}" >
-          <p  class="top">{{quote.description}}</p>  
-          <p>Posted  {{ quote.completeDate |dateCount }} days ago</p> 
+          <p  class="top">{{quote.description}}</p>
+          <p>Posted  {{ quote.completeDate |dateCount }} days ago</p>
           <a id="like" (click)="like(i)">
       <span class="glyphicon glyphicon-thumbs-up"></span>
     </a>

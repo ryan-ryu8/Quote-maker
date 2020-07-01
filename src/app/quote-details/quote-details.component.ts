@@ -12,7 +12,7 @@ export class QuoteDetailsComponent implements OnInit {
   @Output() isComplete = new EventEmitter<boolean>();
 
   highQuote(){
-    this.quote.highlightQuote = !this.quote.highlightQuote 
+    this.quote.highlightQuote = !this.quote.highlightQuote
   }
 
   constructor() { }

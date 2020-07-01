@@ -8,14 +8,9 @@ import { Quote } from '../quote'
 })
 export class QuoteComponent implements OnInit {
 
-  quote:Quote;
-  upvote = 0;
-  downvote = 0;
-
-  title = 'Quotes';
-  quotes =[
-    new Quote(1,'If you get tired learn to rest not to quit','blackquotedaily',new Date(2020, 16,6),0,0),
-  ]
+  quotes:Quote[] = [
+    new Quote(1, 'If you get tired learn to rest not to quit','blackquotedaily','BDQ',new Date(2020, 16,6),0,0),
+  ];
 
   addNewQuote(quote:any){
     let quoteLength = this.quotes.length;
