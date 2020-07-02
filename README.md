@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Live
 
-Click to have a view()
+Click to have a view [See](https://ryan-ryu8.github.io/Quote-maker/)
 
 ## Code scaffolding
 
