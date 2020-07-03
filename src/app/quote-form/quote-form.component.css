@@ -6,7 +6,9 @@
 
     font-family: cursive;
 }
-
+#juice{
+  background-color: black;
+}
 
 #form input,#form textarea{
     width: 50%;
