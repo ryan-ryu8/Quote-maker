@@ -18,6 +18,10 @@ Click to have a view [See](https://ryan-ryu8.github.io/Quote-maker/)
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Fault;
+
+The date count has errors.
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
@@ -37,4 +41,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## License
 
 * MIT
-* Ryan Munge 
+* Ryan Munge
