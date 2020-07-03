@@ -8,6 +8,7 @@
 }
 #juice{
   background-color: black;
+  border-radius: 14px;
 }
 
 #form input,#form textarea{
